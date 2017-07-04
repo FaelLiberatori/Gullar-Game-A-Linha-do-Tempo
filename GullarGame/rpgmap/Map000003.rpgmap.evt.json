@@ -1,0 +1,63 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":7.5,
+      "y":6.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Bem-vindo! Este jogo foi desenvolvido em homenagem ao Ferreira Gullar."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Os acontecimentos retratados no jogo são baseados em fatos reais que ocorreram durante  a vida do Ferreira Gulllar."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ato 1 - O Despertar ",
+                "",
+                "1943 (13 anos) - São Luís, Maranhão."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000001.rpgmap",
+                "x":3.5,
+                "y":8.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

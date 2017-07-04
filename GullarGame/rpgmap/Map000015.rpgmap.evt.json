@@ -1,0 +1,55 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":7.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "No ano seguinte, Ferreira Gullar, editado com recursos próprios e o apoio do Centro Cultural Gonçalves Dias, publica seu primeiro livro de poesia, \"Um pouco acima do chão\"."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ato V - O Assasinato",
+                "",
+                "1950 - Rádio Timbira"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000017.rpgmap",
+                "x":23.5,
+                "y":3.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

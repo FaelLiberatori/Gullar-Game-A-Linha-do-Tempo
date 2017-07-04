@@ -1,0 +1,437 @@
+{
+  "events":[
+    {
+      "id":5,
+      "name":"Event00005",
+      "x":19.5,
+      "y":3.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "\t\t        [Pensamento]",
+                "Finalmente, depois de 3 anos, eu estou pronto para começar minha carreira literária oficialmente!"
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "\t\t        [Pensamento]",
+                "Nesse tempo eu estudei muito. Até descobri que tinha um poeta em minha vizinhança! Para mim foi uma surpresa, pensei que todos já estivessem mortos por causa dos livros da biblioteca..."
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "\t\t        [Pensamento]",
+                "Mas ele não! Era vivo, de carne e osso! Ele me deu algumas dicas a um tempo atrás e disse que procurasse esse jornal quando me sentisse preparado, o \"O Combate\"."
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "\t\t        [Pensamento]",
+                "Eu usei o meu poema do dia do trabalho como base para o que entregarei hoje. Estou confiante nele! Tenho que entregar para o editor chefe do jornal, aquele na mesa de vidro."
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":13.5,
+      "y":10.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara02_d.png",
+            "spriteIndex":0,
+            "dir":3,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não me enche, estou trabalhando!"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":18.5,
+      "y":5.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara01_a.png",
+            "spriteIndex":5,
+            "dir":0,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "José Ribamar, não é? \"O trabslho\" é realmente incrível!"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":3,
+      "name":"Event00003",
+      "x":1.5,
+      "y":10.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara01_b.png",
+            "spriteIndex":0,
+            "dir":2,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Olá"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":4,
+      "name":"Event00004",
+      "x":4.5,
+      "y":3.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "sprite":{
+            "name":"sys/vx_chara03_b.png",
+            "spriteIndex":2,
+            "dir":2,
+            "step":1
+          },
+          "height":1,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Grande Ribamar! Fiquei sabendo de seu poema. É uma aprimoração de um poema que escreveu na escola, hã? Vamos ver como você se saiu."
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "\"O trabalho\", título peculiar, mas definitivamente interessante!"
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "..."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "...."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "....."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Venho dos tempos mais remotos, venho",
+                "Da primeira manhã no céu surgida.",
+                "Sou vida. Vivo. E em minha vida tenho",
+                "Toda a razão primordial da vida!",
+                "",
+                "Ajudo a todos, na fragosa lida",
+                "Pela existência; e com fervor me empenho,",
+                "Dando aos que lutam, bálsamos e guarida,",
+                "e enobrecendo o mais humilde engenho!",
+                "",
+                "Deixo um lastro de luz por onde passo...",
+                "Gera mundos a força do meu braço,",
+                "Não há poder, na terra, a que me dobre.",
+                "",
+                "Sou a maior das Doações Divinas:",
+                "- Se habito nas imensas oficinas,",
+                "Moro na tenda do ferreiro pobre!",
+                "",
+                "O Trabalho - Ferreira Gullar"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "..."
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Muito bom, Parabéns! Iremos publica-lo na próxima edição do jornal."
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Obrigado, senhor!"
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Certo. Vai querer publica-lo com seu nome real, José Ribamar? Talvez prefiraz um pseudônimo?"
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não quero usar o meu nome de verdade!Todo mundo no Maranhão é Ribamar, tenho que usar um pseudônimo."
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ora, ora. Interessante. Tem algum nome em mente?"
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Já decedi, será Ferreira Gullar!"
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ferreira Gullar?! Da onde tirou esse nome?"
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Hehe. Gullar é um dos sobrenomes de minha mãe, o nome dela é Alzira Ribeiro Goulart, e Ferreira é o sobrenome da família, eu então me chamo José Ribamar Ferreira; mas como todo mundo no Maranhão é Ribamar, eu decidi mudar meu nome, usei o Ferreira que é do meu pai e o Gullar que é de minha mãe, só que eu mudei a grafia porque o Gullar de minha mãe é o Goulart francês; é um nome inventado! Como a vida é inventada eu inventei o meu nome."
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Quanta profundidade, gostei de você rapaz! Está decidido então, Ferreira Gullar! Irei publicar na próxima edição do jornal."
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Muito obrigado! Não vejo a hora de ver meu poema no jornal!"
+              ],
+              "useCharacterFace":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Tudo certo então, thcau Ribamar!Digo, tchau Gullar!"
+              ],
+              "customFace":{
+                "faceset":"faceSet1.png",
+                "faceX":3,
+                "faceY":1
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000013.rpgmap",
+                "x":9.5,
+                "y":11.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

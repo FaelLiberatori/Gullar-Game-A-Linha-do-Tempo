@@ -1,0 +1,313 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":10.5,
+      "y":13.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000001.rpgmap",
+                "x":28.5,
+                "y":11.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":9.5,
+      "y":13.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000001.rpgmap",
+                "x":28.5,
+                "y":11.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":3,
+      "name":"Iniciar",
+      "x":10.5,
+      "y":12.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":0,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Espero que minha mãe não reclame por vim direto para o meu quarto."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Sleep",
+              "duration":6.0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não consigo parar de pensar naquela garota. Eu deveria ter tentado falar com ela."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Sleep",
+              "duration":2.0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Palavras não param de surgir na minha cabeça! Isso é muito estranho!"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Sleep",
+              "duration":2.0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "... metade de mim é o que grito, ",
+                "mas a outra metade é o silêncio...",
+                "",
+                "Metade - Ferreira Gullar"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Que profundo! Eu preciso escrever isso, tenho que ir até minha escrivania e sentar-me para escrever!"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"SetEventState",
+              "entitySpec":{
+                "whichEntityId":2,
+                "mapName":"Map000002.rpgmap",
+                "eventId":4
+              },
+              "state":1
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":4,
+      "name":"Escrivania",
+      "x":11.5,
+      "y":7.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não consigo pensar em nada agora."
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "..."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "...."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "....."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Pronto!"
+              ],
+              "useCharacterFace":true,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Uma parte de mim",
+                "é todo mundo;",
+                "outra parte é ninguém:",
+                "fundo sem fundo.",
+                "",
+                "Uma parte de mim",
+                "é multidão:",
+                "outra parte estranheza",
+                "e solidão.",
+                "",
+                "Uma parte de mim",
+                "pesa, pondera;",
+                "outra parte",
+                "delira.",
+                "",
+                "Uma parte de mim",
+                "almoça e janta;",
+                "outra parte",
+                "se espanta.",
+                "",
+                "Uma parte de mim",
+                "é permanente;",
+                "outra parte",
+                "se sabe de repente.",
+                "",
+                "Uma parte de mim",
+                "é só vertigem;",
+                "outra parte,",
+                "linguagem.",
+                "",
+                "Traduzir-se uma parte",
+                "na outra parte",
+                "\u2014 que é uma questão",
+                "de vida ou morte \u2014",
+                "será arte?",
+                "",
+                "Traduzir-se - Ferreira Gullar"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000004.rpgmap",
+                "x":21.5,
+                "y":26.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

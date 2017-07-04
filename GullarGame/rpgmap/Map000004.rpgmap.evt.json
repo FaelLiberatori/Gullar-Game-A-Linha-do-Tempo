@@ -1,0 +1,66 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":7.5,
+      "y":6.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ato II - A Gramática Perfeita",
+                "",
+                "1945 (15 anos) -  Escola Técnica de São Luís"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ModifyParty",
+              "add":true,
+              "characterId":1
+            },
+            {
+              "jsonClass":"ModifyParty",
+              "add":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"SetEventState",
+              "entitySpec":{
+                "whichEntityId":3,
+                "mapName":"Map000008.rpgmap",
+                "eventId":2
+              },
+              "state":1
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000008.rpgmap",
+                "x":3.5,
+                "y":5.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

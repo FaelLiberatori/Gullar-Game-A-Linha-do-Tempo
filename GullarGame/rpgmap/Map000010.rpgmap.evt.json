@@ -1,0 +1,55 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":4.5,
+      "y":7.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "O pequeno jovem poeta deixou os campos de futebol e seus amigos de lado a maior parte do tempo. Sua dedicação aos estudos foi excepcional."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ato III - Primeira Publicação",
+                "",
+                "1947 (17 anos) - Jornal \"O Combate\""
+              ],
+              "useCharacterFace":false,
+              "characterId":1
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000012.rpgmap",
+                "x":19.5,
+                "y":3.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

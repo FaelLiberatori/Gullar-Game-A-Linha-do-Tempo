@@ -1,0 +1,97 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":5.5,
+      "y":5.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Gullar continuou se negando até o último momento, até que foi demitido como prometido."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Após isso, Ferreira Gullar venceu o concurso promovido pelo \"Jornal de Letras\" com o poema \"O galo\". "
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Posteriormente ele se mudou para o Rio de Janeiro, onde escreveu mais alguns sucessos da literatura, tais como o conto \"Osiris come flores\", além de trabalhar em outros jornais conceituados."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Em 1954, Ferreira Gullar se casou com a atriz Thereza Aragão, com quem teve três filhos."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "No golpe militar de 1964 o país ficou com a liberdade de expressão extremamente limitada. Várias obras do Gullar foram consideradas \"ofensivas\" ao país. Gullar atuou na militância contra o golpe e se exilou nos países vizinhos ao Brasil."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ato VI - O Exílio",
+                "",
+                "1975 (45 anos) - Buenos Aires (Argentina)"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ModifyParty",
+              "add":true,
+              "characterId":2
+            },
+            {
+              "jsonClass":"ModifyParty",
+              "add":false,
+              "characterId":1
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000019.rpgmap",
+                "x":5.5,
+                "y":5.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

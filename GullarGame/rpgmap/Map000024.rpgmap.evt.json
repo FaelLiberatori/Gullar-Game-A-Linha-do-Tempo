@@ -1,0 +1,126 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":23.5,
+      "y":34.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Academia Brasileira de Letras"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":16.5,
+      "y":37.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Cá estou eu, que lugar maravilhoso."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":3,
+      "name":"Event00003",
+      "x":20.5,
+      "y":10.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ferreira Gullar ganhou uma cadeira na Academia Brasileira de Letras, uma instituição literária brasileira de alta importância. Ele foi eleito em 9 de outubro de 2014, na sucessão de Ivan Junqueira, e recebido em 5 de dezembro de 2014, pelo Acadêmico Antonio Carlos Secchin."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"FadeOut",
+              "duration":0.11
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000025.rpgmap",
+                "x":9.5,
+                "y":10.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

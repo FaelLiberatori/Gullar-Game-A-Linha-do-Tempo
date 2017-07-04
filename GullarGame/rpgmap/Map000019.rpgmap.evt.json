@@ -1,0 +1,143 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":32.5,
+      "y":10.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Por hora, quero somente apreciar o ar puro."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000020.rpgmap",
+                "x":9.5,
+                "y":4.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":8.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não acredito que estou exilado... ainda bem que estudei toda aquela gramática quando era criança, graças a isso consigo sobreviver aqui em Buenos Aires dando aulas particulares de português."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Preciso passear por aí e vê se consigo pensar em algo para que lembrem de minha existência."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            },
+            {
+              "jsonClass":"Sleep",
+              "duration":20.0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Já sei! Preciso manifestar o que sinto! Irei escrever um poema sobre essa situação. Apenas preciso de um pouco de inspiração..."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            },
+            {
+              "jsonClass":"Sleep",
+              "duration":10.0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Hahahaha. Essa linda paisagem parece ser o suficiente para me inspirar. Preciso ir para casa escrever o que se passa por minha cabeça."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            },
+            {
+              "jsonClass":"SetEventState",
+              "entitySpec":{
+                "whichEntityId":2,
+                "mapName":"Map000019.rpgmap",
+                "eventId":1
+              },
+              "state":1
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

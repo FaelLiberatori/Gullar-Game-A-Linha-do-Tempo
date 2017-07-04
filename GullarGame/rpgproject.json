@@ -1,0 +1,101 @@
+{
+  "uuid":"e1c50e12-e011-47f8-94e3-d9e136b2e74a",
+  "title":"Gullar Game: A Linha do Tempo",
+  "recentMapName":"",
+  "lastCreatedMapId":25,
+  "startup":{
+    "startingLoc":{
+      "map":"Map000003.rpgmap",
+      "x":17.5,
+      "y":25.5
+    },
+    "startingParty":[
+      0
+    ],
+    "titlePic":"ImagemMain2.png",
+    "titleMusic":{
+      "sound":"sys/aaron_mcdonald/A Midsummer Night's Dream - A Duel Comences.mid",
+      "volume":1.0,
+      "pitch":1.0
+    },
+    "gameOverPic":"sys/GameOver.png",
+    "gameOverMusic":{
+      "sound":"sys/aaron_mcdonald/Macbeth - Cue 2.mid",
+      "volume":1.0,
+      "pitch":1.0
+    },
+    "screenW":768,
+    "screenH":480,
+    "fullscreen":false,
+    "windowIcon":"gullarIcon.png",
+    "windowskin":"sys/LastPhantasmScanlines.png",
+    "msgfont":"sys/VeraMono.ttf",
+    "fontsize":24,
+    "stringInputCharacters":"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 -._",
+    "soundCursor":{
+      "sound":"sys/rpgboss-menu/MenuCursor.ogg",
+      "volume":1.0,
+      "pitch":1.0
+    },
+    "soundSelect":{
+      "sound":"sys/rpgboss-menu/MenuSelect.ogg",
+      "volume":1.0,
+      "pitch":1.0
+    },
+    "soundCancel":{
+      "sound":"sys/rpgboss-menu/MenuCancel.ogg",
+      "volume":1.0,
+      "pitch":1.0
+    },
+    "soundCannot":{
+      "sound":"sys/rpgboss-menu/MenuCannot.ogg",
+      "volume":1.0,
+      "pitch":1.0
+    }
+  },
+  "enums":null,
+  "messages":{
+    "Defeated...":"Defeated...",
+    "Use":"Usar",
+    "Back to titlescreen":"Back to titlescreen",
+    "Equip":"Equip",
+    "Quit":"Sair",
+    "Quit game":"Sair do jogo",
+    "Enter new name for: ":"Enter new name for: ",
+    "Offhand":"Offhand",
+    "Max HP:":"Max HP:",
+    "Save":"Salvar",
+    "Load Game":"Carregar Jogo",
+    "Not enough MP...":"Not enough MP...",
+    "LVL":"LVL",
+    "HP":"HP",
+    "Escape failed...":"Escape failed...",
+    "Skill":"Habilidade",
+    "Defeat":"Defeat",
+    "MRE:":"MRE:",
+    "Gold:":"Gold:",
+    "Buy":"Buy",
+    "Escape":"Escape",
+    "Attack":"Attack",
+    "Skills":"Habilidades",
+    "MAG:":"MAG:",
+    "ATK:":"ATK:",
+    "Empty":"Vazio",
+    "Escape impossible...":"Escape impossible...",
+    "Accessory":"Accessory",
+    "Owned:":"Owned:",
+    "Item":"Item",
+    "Organize":"Organize",
+    "Max MP:":"Max MP:",
+    "Armor":"Armor",
+    "New Game":"Novo Jogo",
+    "ARM:":"ARM:",
+    "Weapon":"Roupas",
+    "MP":"MP",
+    "Sell":"Vender",
+    "SPD:":"SPD:",
+    "Escaped...":"Escaped...",
+    "Status":"Status",
+    "Store":"Inventário"
+  }
+}

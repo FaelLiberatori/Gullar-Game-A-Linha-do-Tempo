@@ -1,0 +1,65 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":9.5,
+      "y":10.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ferreira Gullar morreu em 4 de dezembro de 2016, a causa da morte foi pneumonia."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Em 2017 o Ministério da Cultura realizou um edital para homenageá-lo com aplicativos e jogos digitais. Incentivando, assim, a leitura das obras e o conhecimento de sua história, divulgando suas conquistas para os jovens e futuras gerações brasileiras."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "\t\t\t   Fim"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "\t\t\t   Fim",
+                "",
+                "Você pode fechar o jogo no \"X\" do lado superior direito. Caso use Mac ou Ubuntu, o \"X\" se localiza no lado superior esquerdo. ",
+                "Opcionalmente, você também pode salvar o jogo escolhendo \"salvar\" no menu do jogo, que aparecerá ao teclar a tecla \"Esc\" no teclado.",
+                "",
+                "Obrigado por jogar!"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

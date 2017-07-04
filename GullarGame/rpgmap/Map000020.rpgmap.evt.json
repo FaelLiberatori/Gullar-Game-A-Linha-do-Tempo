@@ -1,0 +1,225 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":8.5,
+      "y":9.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":true,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não tenho um local apropriado para escrever aqui. Tenho que improvisar alguma coisa aqui dentro."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            },
+            {
+              "jsonClass":"Sleep",
+              "duration":6.0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não é o local ideal, mas acho que consigo escrever aqui."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "..."
+              ],
+              "useCharacterFace":false,
+              "characterId":2
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "...."
+              ],
+              "useCharacterFace":false,
+              "characterId":2
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "....."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "turvo turvo",
+                "a turva",
+                "mão do sopro",
+                "contra o muro",
+                "escuro",
+                "menos menos",
+                "menos que escuro",
+                "menos que mole e duro menos que fosso e muro: menos que furo",
+                "escuro",
+                "mais que escuro:",
+                "claro",
+                "como água? como pluma? claro mais que claro claro: coisa alguma",
+                "e tudo",
+                "(ou quase)",
+                "um bicho que o universo fabrica e vem sonhando desde as entranhas",
+                "azul",
+                "era o gato",
+                "azul",
+                "era o galo",
+                "azul",
+                "o cavalo",
+                "azul",
+                "teu cu",
+                "tua gengiva igual a tua bocetinha que parecia sorrir entre as folhas de",
+                "banana entre os cheiros de flor e bosta de porco aberta como ",
+                "uma boca do corpo (não como a tua boca de palavras) como uma ",
+                "entrada para",
+                "eu não sabia tu",
+                "não sabias",
+                "fazer girar a vida",
+                "com seu montão de estrelas e oceano",
+                "entrando-nos em ti",
+                "",
+                "Poema sujo (1º página) - Ferreira Gullar"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Muito bom! Meu amigo tinha dito que viria me visitiar, o grande Vinicius de Moraes, vou aproveitar e mostrar o poema para ele. Melhor verificar se ele já chegou."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            },
+            {
+              "jsonClass":"SetEventState",
+              "entitySpec":{
+                "whichEntityId":2,
+                "mapName":"Map000020.rpgmap",
+                "eventId":2
+              },
+              "state":1
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Sleep",
+              "duration":4.0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Vamos ver..."
+              ],
+              "customFace":{
+                "faceset":"sys/mackie/face_m01a_1.png",
+                "faceX":2,
+                "faceY":0
+              },
+              "useCharacterFace":false,
+              "characterId":0
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    },
+    {
+      "id":2,
+      "name":"Event00002",
+      "x":9.5,
+      "y":1.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":1,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Não posso sair sem antes escrever meu poema."
+              ],
+              "useCharacterFace":true,
+              "characterId":2
+            }
+          ]
+        },
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":2,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000021.rpgmap",
+                "x":32.5,
+                "y":13.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

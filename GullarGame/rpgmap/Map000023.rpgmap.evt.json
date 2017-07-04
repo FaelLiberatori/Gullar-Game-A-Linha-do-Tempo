@@ -1,0 +1,71 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":9.5,
+      "y":8.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Vinicius de Moraes levou o \"Poema Sujo\" para o Rio de Janeiro, onde ele divulgou o mesmo para jornalistas e estudiosos em sessões fechada, para que as autoridades não ficassem sabendo."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ferreira Gullar somente retornou ao Brasil em 1977, onde foi preso no dia seguinte. Graças a ajuda de seus amigos ele conseguiu ser inocentado pela justiça. "
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Após sua volta definitiva e livre, ele foi aos poucos voltando a sua profissão. Escreveu várias obras deis de sua chegada, assim como também ganhou diversos prêmios. Um dos mais importantes foi o Prêmio Luís de Camões. O mais importante prêmio literário da Comunidade de Países de Língua Portuguesa, criado em conjunto pelos governos  do Brasil e de Portugal, rendendo ao escritor 100 mil euros."
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ato Final - A Realização",
+                "",
+                "2014 (84 anos) - Academia Brasileira de Letras, RJ"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000024.rpgmap",
+                "x":24.5,
+                "y":38.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}

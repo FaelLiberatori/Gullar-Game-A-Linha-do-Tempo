@@ -1,0 +1,47 @@
+{
+  "events":[
+    {
+      "id":1,
+      "name":"Event00001",
+      "x":2.5,
+      "y":6.5,
+      "states":[
+        {
+          "conditions":[
+            
+          ],
+          "height":0,
+          "affixDirection":false,
+          "trigger":5,
+          "animationType":0,
+          "runOnceThenIncrementState":false,
+          "cmds":[
+            {
+              "jsonClass":"ShowText",
+              "lines":[
+                "Ato IV - Entrada na Rádio",
+                "",
+                "1948 (18 anos) - Rádio Timbira"
+              ],
+              "useCharacterFace":false,
+              "characterId":0
+            },
+            {
+              "jsonClass":"Teleport",
+              "loc":{
+                "map":"Map000014.rpgmap",
+                "x":17.5,
+                "y":3.5
+              },
+              "transitionId":1
+            }
+          ]
+        }
+      ],
+      "eventClassId":-1,
+      "params":[
+        
+      ]
+    }
+  ]
+}
