@@ -4,7 +4,8 @@ Um simples jogo sobre o Ferreira Gullar, um grande escritor brasileiro.
 # Sobre o Desenvolvimento
 A maior parte da arte veio de terceiros. Uma pequena parcela foi ilustrada por mim, incluindo alguns personagens e o campo de futebol.  (sim, desenhar não é o meu forte)
 
-O jogo foi desenvolvido na engine RPGBoss, a qual ainda está em estágio beta, e isso ficou visível ao decorrer do desenvolvimento, diversos bugs e inconsistências, super instável, precisei utilizar diversos workarounds durante o projeto. Não recomendo para projetos maiores ou comerciais, mas sem dúvida a engine tem futuro, vamos esperar novas atualizações.
+O jogo foi desenvolvido na engine RPGBoss, a qual ainda está em estágio beta, e isso ficou visível ao decorrer do desenvolvimento: diversos bugs e inconsistências, super instável, precisei utilizar diversos workarounds durante o projeto. Não recomendo para projetos maiores ou comerciais, vamos esperar novas atualizações.
+Atualização: o projeto da engine foi descontinuado, novas atualizações não serão realizadas.
 
 O projeto do jogo é livre, está licenciado sob GPLv3.
 
